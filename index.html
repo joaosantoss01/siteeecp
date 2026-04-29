@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Prates</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Carlos Prates</h1>
+    </header>
+
+    <section class="galeria">
+        <h2>Lutas</h2>
+
+        <h3>Imagens Horizontais</h3>
+        <div class="grid-horizontal">
+            <img src="./img/CP.jpg" alt="Imagem Horizontal 1">
+            <img src="./img/cp 4.jpg" alt="Imagem Horizontal 2">
+            <img src="./img/cp 3.jpg" alt="Imagem Horizontal 3">
+            <img src="./img/cp 2.jpg" alt="Imagem Horizontal 4">
+            <img src="./img/CP 1.jpg" alt="Imagem Horizontal 5">
+
+        </div>
+
+        <h3>Imagens Verticais</h3>
+        <div class="grid-vertical">
+            <img src="./img/ver.jpg" alt="Imagem Vertical 1">
+            <img src="./img/ver 3.jpg" alt="Imagem Vertical 2">
+            <img src="./img/ver 2.jpg" alt="Imagem Vertical 3">
+            <img src="./img/ver 1.jpg" alt="Imagem Vertical 4">
+        </div>
+    </section>
+
+   <section id="videos">
+        <h2>Videos
+        <div class="videos">
+          <div>
+            <h3>Encaradas</h3>
+            <video controls width="100%">
+              <source
+                src="./video/videoplayback.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          <div>
+            <h3>Nocautes</h3>
+             <iframe width="100%" height="521" src="https://www.youtube.com/embed/6VaYHRPQtbk?si=95weRP3G-BVrxdOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          </div>
+        </div>
+      </section>
+       
+    <section class="contato">
+        <h2>Fale Conosco</h2>
+        <form action="#">
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+
+            <div class="campo">
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="elogio">Elogio</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+
+    <footer>
+        <p>© 2026 - Desenvolvido por João Santos</p>
+    </footer>
+
+</body>
+
+</html>
