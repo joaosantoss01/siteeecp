@@ -29,3 +29,12 @@ color: white;
      text-align: center;
  }
 
+ .grid-horizontal {
+  display: flex;
+  gap: 10px;
+
+ }
+ .grid-vertical {
+  display: flex;
+  gap: 10px;
+ }
