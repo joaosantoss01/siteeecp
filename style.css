@@ -1,3 +1,18 @@
+/* Agrupando as configurações do Body */
+body {
+  background-color: steelblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
 .videos {
   display: flex;
   gap: 20px;
@@ -7,48 +22,33 @@
   flex: 1;
   min-width: 300px;
 }
-      
-body {
+
+
+.contato {
   background-color: steelblue;
 }
 
-.contato {
-
-   background-color: steelblue;
+.grid-horizontal {
+  display: flex;
+  gap: 10px;
 }
+
+.grid-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.grid-vertical img {
+  width: 280px;
+  max-width: 400px;
+  padding: 10px;
+border-radius: 9px;
  
-body {
- font-family: Arial, sans-serif;
-margin: 0;
-   padding: 15px;
-   }
-  header {
-  background-color: #333;
-color: white;
-    padding: 20px;
-     text-align: center;
- }
+}
 
- .grid-horizontal {
-  display: flex;
-  gap: 10px;  
-
-
- }
- .grid-vertical {
-  display: flex;
-    flex-direction: column; /
-    align-items: center;     
-    gap: 15px;              
-  }
-
-  .grid-vertical img{
-    width: 280px;
-    max-width: 400px;
-    padding: 10px;
-
-  }
-  img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-  }
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
